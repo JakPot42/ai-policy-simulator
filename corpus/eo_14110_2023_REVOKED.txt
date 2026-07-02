@@ -1,0 +1,15 @@
+DOC_ID: eo_14110
+TITLE: Executive Order 14110, Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence
+SOURCE_URL: https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
+STATUS: REVOKED (rescinded 2025-01-20 by Executive Order 14179 -- see eo_14179_2025.txt)
+DATE: 2023-10-30
+NOTE: Kept in this corpus ONLY as historical/contrast material -- this order no longer reflects US federal policy. Any finding that cites this document must explicitly state it describes a rescinded rule, useful only for comparing a draft against the prior regulatory posture. Summarized from Congressional Research Service and NIST program descriptions, not a verbatim reproduction of the Federal Register text.
+
+[SECTION: DUAL_USE_REPORTING]
+Imposed recordkeeping and reporting requirements (under the Defense Production Act) on developers of "dual-use foundation models" and owners of large-scale computing clusters, including reporting of red-team safety test results and information on model training, and physical/cybersecurity measures. This reporting regime was among the actions Section 5(a) of the superseding EO 14179 directed agencies to review for suspension or rescission.
+
+[SECTION: NIST_GENAI_GUIDANCE]
+Directed NIST to develop a companion resource to the AI Risk Management Framework specifically for generative AI, a companion to the Secure Software Development Framework for generative AI and dual-use foundation models, and guidelines for red-team testing of dual-use foundation models focused on cybersecurity and biosecurity risks.
+
+[SECTION: EQUITY_AND_CIVIL_RIGHTS]
+Directed agencies to address algorithmic discrimination in federal benefits and law-enforcement contexts, and to issue guidance on AI use in hiring, housing, and lending to prevent unlawful discrimination -- a substantially more prescriptive civil-rights posture than the deregulatory policy statement in EO 14179 Section 2.

@@ -1,0 +1,24 @@
+DOC_ID: eu_ai_act_art6
+TITLE: EU Artificial Intelligence Act, Regulation (EU) 2024/1689, Article 6 -- Classification Rules for High-Risk AI Systems
+SOURCE_URL: https://artificialintelligenceact.eu/article/6/ (official text: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+STATUS: ACTIVE
+DATE: 2024-06-13
+NOTE: Summarized from artificialintelligenceact.eu's article text, not a verbatim reproduction of the Official Journal text -- verify exact wording against eur-lex.europa.eu before citing in a real filing.
+
+[SECTION: ART6_1_SAFETY_COMPONENT]
+Article 6(1). An AI system is classified as high-risk where it is intended to be used as a safety component of a product, or is itself a product, covered by the EU harmonization legislation listed in Annex I (e.g. machinery, toys, medical devices, aviation), and the product is required to undergo a third-party conformity assessment under that legislation.
+
+[SECTION: ART6_2_ANNEX_III_DOMAINS]
+Article 6(2). In addition to Article 6(1), AI systems referred to in Annex III are considered high-risk. Annex III lists specific use-case domains including: biometric identification and categorization; management and operation of critical infrastructure; education and vocational training; employment, workers management, and access to self-employment; access to essential private and public services (including credit scoring and eligibility for public assistance benefits); law enforcement; migration, asylum, and border control management; and administration of justice and democratic processes.
+
+[SECTION: ART6_3_NARROW_TASK_EXEMPTION]
+Article 6(3). An Annex III system is nonetheless NOT considered high-risk if it does not pose a significant risk of harm to the health, safety, or fundamental rights of natural persons, including by not materially influencing the outcome of decision-making. This applies where the system performs a narrow procedural task, improves the result of a previously completed human activity, detects decision-making patterns without replacing or influencing a prior human assessment without proper review, or performs a preparatory task to an assessment relevant for an Annex III use case. However, an Annex III system is always considered high-risk if it performs profiling of natural persons -- this exception to the exception cannot be waived.
+
+[SECTION: ART6_4_DOCUMENTATION_REGISTRATION]
+Article 6(4). A provider that considers an Annex III AI system not to be high-risk under Article 6(3) must document that assessment before placing the system on the market or into service, and must register the system in the EU database referred to in Article 49(2).
+
+[SECTION: ART6_5_COMMISSION_GUIDELINES]
+Article 6(5). The Commission is required to publish guidelines, by 2 February 2026, specifying the practical implementation of Article 6 together with a comprehensive list of practical examples of high-risk and non-high-risk AI use cases.
+
+[SECTION: ART6_6_8_DELEGATED_ACTS]
+Article 6(6)-(8). The Commission may adopt delegated acts to amend the conditions in Article 6(3) based on accumulated evidence, but any amendment must maintain the existing level of protection of health, safety, and fundamental rights, and any addition of new high-risk use cases must be consistent with the level of risk equivalent to or greater than the already-listed high-risk use cases.

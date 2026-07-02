@@ -1,0 +1,21 @@
+DOC_ID: dod_ai_principles_2020
+TITLE: DoD AI Ethical Principles
+SOURCE_URL: https://www.war.gov/News/News-Stories/Article/Article/2094085/dod-adopts-5-principles-of-artificial-intelligence-ethics/
+STATUS: ACTIVE
+DATE: 2020-02-24
+NOTE: Adopted by the Department of Defense (then Department of War) on the recommendation of the Defense Innovation Board. Five principles govern both combat and non-combat AI systems.
+
+[SECTION: RESPONSIBLE]
+Responsible. DoD personnel will exercise appropriate levels of judgment and care, while remaining responsible for the development, deployment, and use of AI capabilities. Human beings should exercise appropriate levels of judgment and remain responsible for the development, deployment, use, and outcomes of DoD AI systems.
+
+[SECTION: EQUITABLE]
+Equitable. The Department will take deliberate steps to minimize unintended bias in AI capabilities. DoD should take deliberate steps to avoid unintended bias in the development and deployment of combat or non-combat AI systems that would inadvertently cause harm to persons.
+
+[SECTION: TRACEABLE]
+Traceable. The Department's AI capabilities will be developed and deployed such that relevant personnel possess an appropriate understanding of the technology, development processes, and operational methods applicable to AI capabilities, including with transparent and auditable methodologies, data sources, and design procedure and documentation. DoD's AI engineering discipline should be sufficiently advanced such that technical experts possess an appropriate understanding of the technology, development processes, and operational methods of its AI systems, including transparent and auditable methodologies, data sources, and design procedure and documentation.
+
+[SECTION: RELIABLE]
+Reliable. The Department's AI capabilities will have explicit, well-defined uses, and the safety, security, and effectiveness of such capabilities will be subject to testing and assurance within those defined uses across their entire life-cycles. DoD AI systems should have an explicit, well-defined domain of use, and the safety, security, and robustness of such systems should be tested and assured across their entire life cycle within that domain of use.
+
+[SECTION: GOVERNABLE]
+Governable. The Department will design and engineer AI capabilities to fulfill their intended functions while possessing the ability to detect and avoid unintended consequences, and the ability to disengage or deactivate deployed systems that demonstrate unintended behavior. DoD AI systems should be designed and engineered to fulfill their intended function while possessing the ability to detect and avoid unintended harm, and the ability to disengage or deactivate deployed systems that demonstrate unintended escalatory or other behavior.

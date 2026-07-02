@@ -1,0 +1,25 @@
+DOC_ID: eo_14179
+TITLE: Executive Order 14179, Removing Barriers to American Leadership in Artificial Intelligence
+SOURCE_URL: https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/
+STATUS: ACTIVE
+DATE: 2025-01-23
+NOTE: Signed by President Trump on his first day in office, revoking Executive Order 14110 (see eo_14110_2023_REVOKED.txt). Summarized from the White House release, not a verbatim reproduction of the Federal Register text.
+
+[SECTION: SEC1_PURPOSE]
+Section 1, Purpose. States that the United States must develop AI systems "free from ideological bias or engineered social agendas" in order to maintain global AI leadership, and identifies certain existing AI policies as barriers to innovation that must be revoked.
+
+[SECTION: SEC2_POLICY]
+Section 2, Policy. It is the policy of the United States "to sustain and enhance America's global AI dominance in order to promote human flourishing, economic competitiveness, and national security."
+
+[SECTION: SEC3_DEFINITION]
+Section 3, Definitions. Defines "artificial intelligence" or "AI" by reference to the definition in 15 U.S.C. 9401(3) (the National AI Initiative Act of 2020).
+
+[SECTION: SEC4_ACTION_PLAN]
+Section 4, Developing an Artificial Intelligence Action Plan. Directs the Assistant to the President for Science and Technology, the Special Advisor for AI and Crypto, and the Assistant to the President for National Security Affairs to develop and submit, within 180 days, an AI Action Plan to achieve the policy set out in Section 2.
+
+[SECTION: SEC5_REVOCATION]
+Section 5(a), Implementation of Order Revocation. Directs agency heads to immediately review all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 (October 30, 2023) and identify any that are inconsistent with, or act as a barrier to, the policy set out in Section 2; agencies must suspend, revise, or rescind such actions as appropriate.
+Section 5(b). Directs the Director of the Office of Management and Budget to revise OMB Memoranda M-24-10 and M-24-18 as necessary for consistency with the policy in Section 2, within 60 days.
+
+[SECTION: SEC6_GENERAL_PROVISIONS]
+Section 6, General Provisions. Standard boilerplate: does not impair the authority of any agency, is subject to the availability of appropriations, and does not create any enforceable right or benefit against the United States.

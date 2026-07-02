@@ -1,0 +1,33 @@
+DOC_ID: eu_ai_act_art5
+TITLE: EU Artificial Intelligence Act, Regulation (EU) 2024/1689, Article 5 -- Prohibited AI Practices
+SOURCE_URL: https://artificialintelligenceact.eu/article/5/ (official text: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+STATUS: ACTIVE (prohibitions applicable from 2 February 2025)
+DATE: 2024-06-13
+NOTE: Summarized from artificialintelligenceact.eu's article text, not a verbatim reproduction of the Official Journal text -- verify exact wording against eur-lex.europa.eu before citing in a real filing.
+
+[SECTION: ART5_1A_SUBLIMINAL_MANIPULATION]
+Article 5(1)(a). Prohibits placing on the market, putting into service, or using an AI system that deploys subliminal techniques beyond a person's consciousness, or purposefully manipulative or deceptive techniques, with the objective or effect of materially distorting a person's or group's behavior by appreciably impairing their ability to make an informed decision, causing significant harm.
+
+[SECTION: ART5_1B_EXPLOIT_VULNERABILITIES]
+Article 5(1)(b). Prohibits AI systems that exploit vulnerabilities of a person or a specific group due to their age, disability, or a specific social or economic situation, with the objective or effect of materially distorting behavior in a manner that causes or is reasonably likely to cause significant harm.
+
+[SECTION: ART5_1C_SOCIAL_SCORING]
+Article 5(1)(c). Prohibits AI systems for the evaluation or classification of natural persons or groups over a certain period of time based on social behavior or known, inferred, or predicted personal or personality characteristics, where the resulting social score leads to detrimental or unfavorable treatment in social contexts unrelated to the context in which the data was originally generated, or that is unjustified or disproportionate to the behavior or its gravity.
+
+[SECTION: ART5_1D_CRIMINAL_PROFILING]
+Article 5(1)(d). Prohibits AI systems for making risk assessments of natural persons to predict the risk of committing a criminal offense based solely on profiling or on assessing personality traits, except where used to support a human assessment based on objective and verifiable facts directly linked to criminal activity.
+
+[SECTION: ART5_1E_FACIAL_SCRAPING]
+Article 5(1)(e). Prohibits AI systems that create or expand facial recognition databases through untargeted scraping of facial images from the internet or CCTV footage.
+
+[SECTION: ART5_1F_EMOTION_INFERENCE]
+Article 5(1)(f). Prohibits AI systems inferring emotions of a natural person in the areas of workplace and education institutions, except where the use is intended for medical or safety reasons.
+
+[SECTION: ART5_1G_BIOMETRIC_CATEGORIZATION]
+Article 5(1)(g). Prohibits biometric categorization systems that categorize individuals based on their biometric data to deduce or infer race, political opinions, trade union membership, religious or philosophical beliefs, sex life, or sexual orientation.
+
+[SECTION: ART5_1H_REALTIME_BIOMETRIC_ID]
+Article 5(1)(h). Prohibits the use of real-time remote biometric identification systems in publicly accessible spaces for law enforcement purposes, subject to narrow exceptions (targeted search for victims of crime including missing children, prevention of a specific and imminent threat to life, or localization/identification of a suspect in specific serious criminal offenses) and subject to prior authorization and safeguards.
+
+[SECTION: ART5_2_8_SAFEGUARDS]
+Article 5(2)-(8). Establish procedural safeguards for the narrow law-enforcement exceptions to the Article 5(1)(h) real-time biometric identification prohibition: prior authorization by a judicial or independent administrative authority, necessity/proportionality assessment, fundamental-rights impact assessment, and mandatory notification/reporting obligations to national and EU authorities.

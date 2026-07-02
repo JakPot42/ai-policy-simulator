@@ -1,0 +1,33 @@
+DOC_ID: eo_14365
+TITLE: Executive Order 14365, Ensuring a National Policy Framework for Artificial Intelligence
+SOURCE_URL: https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/
+STATUS: ACTIVE
+DATE: 2025-12-11
+NOTE: The most recent major federal AI executive order as of this corpus's indexing. Summarized from the White House release and contemporaneous law-firm client alerts (Sidley, Dentons, Morgan Lewis, Mayer Brown, White & Case), not a verbatim reproduction of the Federal Register text. As of this corpus's indexing, Congress has not passed a federal AI law preempting state AI statutes, so state laws such as Colorado's AI Act and California's Transparency in Frontier AI Act are not yet displaced by this order alone.
+
+[SECTION: SEC1_PURPOSE]
+Section 1, Purpose. Identifies a "patchwork" of state-level AI regulation as a barrier to US AI competitiveness, including state laws the order characterizes as requiring "ideological bias" in AI model outputs.
+
+[SECTION: SEC2_POLICY]
+Section 2, Policy. It is the policy of the United States "to sustain and enhance the United States' global AI dominance through a minimally burdensome national policy framework for AI."
+
+[SECTION: SEC3_DOJ_TASK_FORCE]
+Section 3, AI Litigation Task Force. Directs the Attorney General to establish, within 30 days, a Department of Justice task force to challenge state AI laws found inconsistent with the policy in Section 2, including on Commerce Clause and federal preemption grounds.
+
+[SECTION: SEC4_STATE_LAW_EVALUATION]
+Section 4, State Law Evaluation. Directs the Secretary of Commerce, within 90 days, to identify state AI laws that require "alterations to truthful outputs" of AI models or that may violate constitutional protections such as the First Amendment.
+
+[SECTION: SEC5_FUNDING_CONDITIONS]
+Section 5, Funding Restrictions. Directs agencies to evaluate discretionary grant programs (including broadband deployment funding) and determine whether they may be conditioned on a state either not enacting an AI law that conflicts with the order's policy, or -- for states that already have such a law -- entering a binding agreement not to enforce it during the grant performance period.
+
+[SECTION: SEC6_FCC_PROCEEDING]
+Section 6, FCC Proceeding. Directs the Federal Communications Commission to consider initiating a proceeding on a federal reporting and disclosure standard for AI models that could preempt conflicting state disclosure regulations.
+
+[SECTION: SEC7_FTC_POLICY_STATEMENT]
+Section 7, FTC Policy Statement. Directs the Federal Trade Commission to issue a policy statement on how the FTC Act applies to AI models, addressing whether state requirements that alter truthful AI model outputs constitute unfair or deceptive practices.
+
+[SECTION: SEC8_LEGISLATIVE_RECOMMENDATION]
+Section 8, Legislative Recommendation. Directs relevant officials to develop and transmit to Congress recommended legislation establishing a uniform federal AI policy framework, while preserving state authority over child safety and state government AI procurement.
+
+[SECTION: SCOPE_NOTE_AS_APPLIED]
+Scope note (from contemporaneous legal analysis, not the order's own text). Multiple law firm client alerts characterize the order as an "as-applied" challenge mechanism rather than a categorical, automatic freeze of state AI laws: it directs agencies to identify and challenge specific state laws rather than voiding state AI statutes by its own force.

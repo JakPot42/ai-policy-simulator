@@ -1,0 +1,37 @@
+DOC_ID: nist_ai_rmf_1_0
+TITLE: NIST AI Risk Management Framework (AI RMF 1.0), NIST AI 100-1
+SOURCE_URL: https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
+STATUS: ACTIVE
+DATE: 2023-01-26
+NOTE: Voluntary framework. The Core is organized into four functions (GOVERN, MAP, MEASURE, MANAGE), each broken into categories. Category text below is summarized from the NIST AI Resource Center (airc.nist.gov) category descriptions, not a verbatim reproduction of the PDF -- verify exact subcategory language against the source PDF before citing in a real filing.
+
+[SECTION: GOVERN]
+GOVERN is the cross-cutting function: it cultivates a culture of AI risk management and is designed to inform and be infused throughout the other three functions.
+GOVERN 1: Policies, processes, procedures, and practices across the organization related to the mapping, measuring, and managing of AI risks are in place, transparent, and implemented effectively.
+GOVERN 2: Accountability structures are in place so that appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks.
+GOVERN 3: Workforce diversity, equity, inclusion, and accessibility processes are prioritized in the mapping, measuring, and managing of AI risks throughout the lifecycle.
+GOVERN 4: Organizational teams are committed to a culture that considers and communicates AI risk.
+GOVERN 5: Processes are in place for robust engagement with relevant AI actors.
+GOVERN 6: Policies and procedures are in place to address AI risks and benefits arising from third-party software, data, and other supply chain issues.
+
+[SECTION: MAP]
+MAP is the scoping function: establish the context and identify risks related to an AI system within that context.
+MAP 1: Context is established and understood, including the intended purpose, deployment setting, and requirements the AI system must satisfy.
+MAP 2: Categorization of the AI system is performed, including defining the specific tasks and methods used to implement those tasks.
+MAP 3: AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood.
+MAP 4: Risks and benefits are mapped for all components of the AI system, including third-party software and data.
+MAP 5: Impacts to individuals, groups, communities, organizations, and society are characterized and documented.
+
+[SECTION: MEASURE]
+MEASURE evaluates the mapped risks using context-specific quantitative, qualitative, or mixed-method assessment.
+MEASURE 1: Appropriate methods and metrics are identified and applied to assess the AI risks enumerated during the MAP function.
+MEASURE 2: AI systems are evaluated for trustworthy characteristics -- validity, reliability, safety, security, resilience, accountability, transparency, explainability, interpretability, privacy, and fairness -- through documented testing and validation.
+MEASURE 3: Mechanisms for tracking identified AI risks over time are in place.
+MEASURE 4: Feedback about the efficacy of measurement is gathered and assessed from relevant AI actors.
+
+[SECTION: MANAGE]
+MANAGE allocates risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function.
+MANAGE 1: AI risks based on assessments and other analytical output from the MAP and MEASURE functions are prioritized, responded to, and managed.
+MANAGE 2: Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors.
+MANAGE 3: AI risks and benefits from third-party entities are managed.
+MANAGE 4: Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.
