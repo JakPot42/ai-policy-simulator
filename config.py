@@ -3,9 +3,11 @@ No retrieval or Claude-calling logic lives here.
 """
 from __future__ import annotations
 
-import os
+from demo_mode import is_demo_mode
 
-DEMO_MODE = os.environ.get("DEMO_MODE", "True") == "True"
+# Reconciled to the shared permissive convention (was strict `== "True"`,
+# the outlier among the three merged tools -- see demo_mode.py).
+DEMO_MODE = is_demo_mode()
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 
 TOP_K_PER_QUERY = 3

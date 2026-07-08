@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import json
 
+from claude_client import call_claude
 from bm25_index import BM25Index, Chunk
 from citation_verifier import verify_all
 from config import CLAUDE_MODEL, DEMO_MODE, TOP_K_PER_QUERY
@@ -83,33 +84,38 @@ def _demo_react(persona: dict, draft_text: str, index: BM25Index) -> PersonaRepo
 
 
 def _claude_react(persona: dict, draft_text: str, index: BM25Index) -> PersonaReport:
+    pool = _retrieve_for_persona(persona, index)
+    if not pool:
+        return _demo_react(persona, draft_text, index)
+
+    context_blocks = [
+        f"[doc_id={c.doc_id} section_id={c.section_id} status={c.status}]\n"
+        f"{c.title}\n{c.text}"
+        for c in pool
+    ]
+    context = "\n\n---\n\n".join(context_blocks)
+
+    user_prompt = (
+        f"Persona: {persona['name']} -- {persona['role']}\n\n"
+        f"Reference passages:\n\n{context}\n\n"
+        f"Draft AI policy language:\n\n{draft_text}"
+    )
+    # Falls back to the deterministic template on ANY failure -- an API failure
+    # (call_claude returns None via on_error="fallback") or a JSON-parse failure
+    # of a returned-but-malformed response. The shared wrapper handles the
+    # former; the local try handles the latter.
+    text = call_claude(
+        user_prompt,
+        system=_SYSTEM_PROMPT,
+        model=CLAUDE_MODEL,
+        max_tokens=1024,
+        on_error="fallback",
+    )
+    if text is None:
+        return _demo_react(persona, draft_text, index)
+
     try:
-        import anthropic
-        client = anthropic.Anthropic()
-
-        pool = _retrieve_for_persona(persona, index)
-        if not pool:
-            return _demo_react(persona, draft_text, index)
-
-        context_blocks = [
-            f"[doc_id={c.doc_id} section_id={c.section_id} status={c.status}]\n"
-            f"{c.title}\n{c.text}"
-            for c in pool
-        ]
-        context = "\n\n---\n\n".join(context_blocks)
-
-        user_prompt = (
-            f"Persona: {persona['name']} -- {persona['role']}\n\n"
-            f"Reference passages:\n\n{context}\n\n"
-            f"Draft AI policy language:\n\n{draft_text}"
-        )
-        msg = client.messages.create(
-            model=CLAUDE_MODEL,
-            max_tokens=1024,
-            system=_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user_prompt}],
-        )
-        data = json.loads(msg.content[0].text.strip())
+        data = json.loads(text)
         findings = [
             Finding(
                 category="persona_reaction",
@@ -123,9 +129,6 @@ def _claude_react(persona: dict, draft_text: str, index: BM25Index) -> PersonaRe
         ]
         return PersonaReport(persona["id"], persona["name"], data.get("summary", ""), findings)
     except Exception:
-        # Same doctrine as every Claude call site in this portfolio: catch
-        # Exception (the SDK raises TypeError on a missing key, not
-        # anthropic.APIError), fall back rather than crash.
         return _demo_react(persona, draft_text, index)
 
 
