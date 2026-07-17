@@ -8,7 +8,6 @@ flagged, and the draft is scored against NIST AI RMF and the EU AI Act —
 public documents, and that citation is programmatically checked against the
 actual indexed text before it is ever shown as confirmed.**
 
-CLI tool. No web deploy (Render is full at 25/25 — see portfolio CLAUDE.md).
 
 ---
 
